@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+   <meta charset="UTF-8">
+   <title>Validazione Advanced</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+   <div id="wrapper">
+       <h3>VALIDAZIONE DATI ADVANCED</h3>
+       <form action="" method="post" name="datiUtente" onSubmit="controlloForm()">
+           COGNOME E NOME:
+           <input type="text" id="nominativo" name="nominativo" size="50" maxlength="50" onchange="controlloNominativo()">
+           <br>
+		   
+           <br>
+           SESSO:&nbsp;&nbsp;&nbsp;
+           <input type="radio" name="sesso" value="M"> M
+           &nbsp;&nbsp; - &nbsp;&nbsp;
+           <input type="radio" name="sesso" value="F"> F
+           <br>
+           ATENEO:
+           <select id="ateneo">
+               <option value="nessuno" selected></option>
+               <option value="sapienza">La Sapienza</option>
+               <option value="torvergata">Tor Vergata</option>
+               <option value="romatre">Roma Tre</option>
+           </select>
+           <br>
+           CAP:
+           <input type="text" id="cap" size="5" maxlength="5" onchange="controlloCap()">
+           <br><br>
+           STUDENTE LAVORATORE
+           <input type="checkbox" id="lavoratore" onclick="descrizione()">
+           <br>
+           DESCRIZIONE LAVORO:
+           <input type="text" id="descr" size="80" maxlength="80" disabled>
+           <br>
+           <div class="buttons">
+               <input type="submit" value="INVIA">
+               <input type="reset" value="RESET">
+           </div>
+       </form>
+   </div>
+</body>
+ 
+</html>

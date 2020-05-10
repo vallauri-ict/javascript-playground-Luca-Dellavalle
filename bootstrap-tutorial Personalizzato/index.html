@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Tutorial Sample Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+	crossorigin="anonymous"></script>
+	
+	<nav class="navbar navbar-expand-md ">
+	  
+	  <svg class="bi bi-x-diamond-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.615L8 8.707l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.615-.707L7.293 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" clip-rule="evenodd"/>
+	  </svg>
+	  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="main-navigation">
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#contain">Informazioni</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#getInTouch">Contattami</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+	
+	<header id="_header" class="page-header header container-fluid  ">
+	  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	   <div class="overlay"></div>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="d-block w-100" src="images/header-3.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/header-1.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/header-2.jpg" alt="Third slide">
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>	
+	</header>
+	<header id="no-height">
+		<script src="main.js"></script>
+	</header>
+	<script src="main.js"></script>
+	
+	<div class="container features" id="about">
+	 <a name="contain"></a>
+	  <div class="row" >
+	   
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">I MIEI VIAGGI</h3>
+		  <img src="images/column-1.jpg" class="img-fluid">
+		  <p>Camminare su una cresta, scalare, sciare, arrivare in vetta. Tutte esperienze che riempiono l' anima e il cuore di chi ama stare ad alta quota e ammirare la bellezza della montagna.</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">PROGETTI PER IL FUTURO</h3>
+		  <img src="images/column-2.jpg" class="img-fluid" >
+		  <p>Sulla nostra lista delle cose da fare ci sono tantissime montagne e vette da scalare in tutto il mondo e noi sappiamo che ci arriveremo.</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">ATTREZZATURA</h3>
+		  <img src="images/column-3.jpg" class="img-fluid">
+		  <p>In un' escursione sicura non può mancare una buona e affidabile attrezzatura ecco i miei consigli per un attrezzatura perfetta. </p>
+		</div>
+	  </div> 
+
+	  <div class="row">
+	  
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">ESCURSIONI ESTIVE</h3>
+		  <img src="images/column-4.jpg" class="img-fluid">
+		  <p>L' estate ci permette di poter organizzare escursioni di gruppo come: trekking in tenda, scalata su roccia, rafting e molto altro ancora se sei un amante della montagna come noi</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">ESCURSIONI INVERNALI</h3>
+		  <img src="images/column-5.jpg" class="img-fluid">
+		  <p>L' inverno ci permette di poter organizzare escursioni di gruppo come: sciare, arrampicata su ghiaccio, ciaspolate e molto altro ancora se sei un amante della montagna come noi</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h3 class="feature-title">LEZIONI DI SOPRAVVIVENZA</h3>
+		  <img src="images/column-6.jpg" class="img-fluid" >
+		  <p>I più avventurieri possono seguire le nostre lezioni di sopravvivenza principalmente in situazioni montane. Le lezioni avverrano in tre giorni consecutivi durante i quali ci sposteremo e ci fermeremo per fare lezione e riposarci, le due notti si passeranno in tenda </p>
+		</div>
+	  </div> 
+	  
+	   <div class="row">
+	   <a name="getInTouch"></a>
+		<div class="col-lg-4 col-md-4 col-sm-12 " >
+		  <h3 class="feature-title" >Contattami</h3>
+		  <div class="form-group">
+		   <input type="text" class="form-control" placeholder="Name" name="">
+	      </div>
+	      <div class="form-group">
+			<input type="email" class="form-control" placeholder="Email Address" name="email">
+		  </div>
+		  <div class="form-group">
+			<input type="argumnents" class="form-control" placeholder="Arguments" name="argumnents">
+		  </div>
+		  <div class="form-group">
+		   <textarea class="form-control" rows="4"></textarea>
+	      </div>
+			<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+		</div>
+		
+	  </div> 
+	</div>
+	
+	
+	<footer class="page-footer">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-8 col-md-8 col-sm-12">
+		  <h6 class="text-uppercase font-weight-bold">Informazioni</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <h6 class="text-uppercase font-weight-bold">Contatti</h6>
+		  <p>12042 Bra, Piemonte, Italia
+		  <br/>info@mywebsite.com
+		  <br/>+ 0172 234 567 88
+		  <br/>+ 0172 234 567 89</p>
+		</div>
+	  </div>
+	  <div class="footer-copyright text-center">© 2020 Copyright: SitodiProva.com</div>
+	</footer>
+</body>
+</html>
